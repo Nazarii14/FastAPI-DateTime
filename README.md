@@ -8,6 +8,6 @@
 5. Run main.py <code>uvicorn main:app --port=8000</code>
 
 ### Available Routes
-1. <code>api/info/</code>
-2. <code>api/info/month</code>
-3. <code>api/info/year</code>
+1. <code>/info</code>
+2. <code>/month</code>
+3. <code>/year</code>
