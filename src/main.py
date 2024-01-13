@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+import uvicorn
 from calculations import *
 
 app = FastAPI()
@@ -19,3 +19,7 @@ async def month():
 @app.get("/year")
 async def year():
     return get_year_info()
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
