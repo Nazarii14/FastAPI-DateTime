@@ -6,3 +6,8 @@
 3. Activate your venv with running activate.bat file inside Scripts folder
 4. Install requirements <code>pip install -r requirements.txt</code>
 5. Run main.py <code>uvicorn main:app --port=8000</code>
+
+### Available Routes
+1. <code>api/info/</code>
+2. <code>api/info/month</code>
+3. <code>api/info/year</code>
